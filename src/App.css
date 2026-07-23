@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  padding: 24px;
+}
+
+.image-container {
+  width: 100%;
+  height: 180px;
+  max-height: 280px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
