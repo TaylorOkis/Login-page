@@ -136,3 +136,8 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: clamp(1.5rem, calc(1.227rem + 1.364vw), 2.25rem);
+  color: var(--primary-text);
+}

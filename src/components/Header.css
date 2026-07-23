@@ -1,0 +1,7 @@
+h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: clamp(0.781rem, calc(0.611rem + 0.852vw), 1.25rem);
+}
