@@ -1,0 +1,38 @@
+input {
+  display: block;
+}
+
+label {
+  font-size: clamp(14px, calc(13.273px + 0.227vw), 16px);
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+input {
+  margin-bottom: 16px;
+  margin-top: 8px;
+  width: 100%;
+  max-width: 388px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid var(--accent-2);
+  background: var(--accent-5);
+
+  &::placeholder {
+    color: var(--accent);
+    font-family: var(--roboto);
+    font-size: 16px;
+  }
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+a {
+  color: var(--link);
+}

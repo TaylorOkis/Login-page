@@ -3,5 +3,12 @@ h1 {
 }
 
 p {
-  font-size: clamp(0.781rem, calc(0.611rem + 0.852vw), 1.25rem);
+  font-size: clamp(0.781rem, calc(0.702rem + 0.398vw), 1rem);
+  color: var(--secondary-text);
+  line-height: 1.7;
+  max-width: 39ch;
+}
+
+.description {
+  margin-bottom: 24px;
 }

@@ -120,8 +120,9 @@ code {
   --accent-2: #d4d7e3;
   --accent-3: #f3f7fb;
   --accent-4: #f3f9fa;
-  --accent-5: #162d3a;
-  --accent-6: #1877f2;
+  --accent-5: #f7fbff;
+  --accent-6: #162d3a;
+  --accent-7: #1877f2;
 
   --roboto: Roboto, "Segou UI", sans-serif;
 
@@ -140,4 +141,8 @@ code {
 h1 {
   font-size: clamp(1.5rem, calc(1.227rem + 1.364vw), 2.25rem);
   color: var(--primary-text);
+}
+
+a {
+  text-decoration: none;
 }
