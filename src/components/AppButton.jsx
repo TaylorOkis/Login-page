@@ -3,7 +3,8 @@ export default function AppButton({
   textColor,
   backgroundColor,
   maxWidth,
-  type,
+  type = "button",
+  icon,
 }) {
   const buttonStyle = {
     color: textColor,
@@ -16,11 +17,16 @@ export default function AppButton({
     fontSize: "16px",
     border: "none",
     cursor: "pointer",
+    display: "flex",
+    gap: "16px",
+    justifyContent: "center",
+    alignItems: "center",
   };
 
   return (
     <>
       <button type={type} style={buttonStyle}>
+        {icon}
         {text}
       </button>
     </>

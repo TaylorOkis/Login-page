@@ -1,0 +1,19 @@
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--accent-1);
+  display: inline-block;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.divider-text {
+  padding-inline: 16px;
+}

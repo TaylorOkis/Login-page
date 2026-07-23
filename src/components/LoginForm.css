@@ -1,3 +1,7 @@
+form {
+  margin-bottom: 48px;
+}
+
 input {
   display: block;
 }
@@ -35,4 +39,19 @@ input {
 
 a {
   color: var(--link);
+}
+
+.social-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.sign-up {
+  margin-bottom: 57px;
+}
+
+.sign-up,
+.copyright {
+  text-align: center;
 }
