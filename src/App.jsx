@@ -5,13 +5,22 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="wrapper form-width">
-      <div className="image-container">
-        <img src={loginImageOne} alt="login image" width="816" height="1076" />
-      </div>
+    <div className="wrapper">
+      <div className="form">
+        <div className="image-container">
+          <img
+            src={loginImageOne}
+            alt="login image"
+            width="816"
+            height="1076"
+          />
+        </div>
 
-      <Header />
-      <LoginForm />
+        <main>
+          <Header />
+          <LoginForm />
+        </main>
+      </div>
     </div>
   );
 }

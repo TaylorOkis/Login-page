@@ -2,7 +2,7 @@ h1 {
   margin-bottom: 16px;
 }
 
-p {
+.description p {
   font-size: clamp(0.781rem, calc(0.702rem + 0.398vw), 1rem);
   color: var(--secondary-text);
   line-height: 1.7;

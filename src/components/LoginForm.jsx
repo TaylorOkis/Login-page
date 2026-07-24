@@ -3,6 +3,7 @@ import Divider from "./Divider";
 import GoogleLogo from "../assets/Google.svg";
 import FacebookLogo from "../assets/Facebook.svg";
 import "./LoginForm.css";
+import Footer from "./Footer";
 
 export default function LoginForm() {
   return (
@@ -60,11 +61,7 @@ export default function LoginForm() {
         />
       </div>
 
-      <p className="sign-up">
-        Do not have an account? <a>Sign up</a>
-      </p>
-
-      <p className="copyright">&copy; 2023 ALL RIGHTS RESERVED</p>
+      <Footer />
     </>
   );
 }

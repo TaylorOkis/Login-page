@@ -39,19 +39,15 @@ input {
 
 a {
   color: var(--link);
+  cursor: pointer;
 }
 
 .social-buttons {
   display: flex;
   gap: 16px;
   margin-bottom: 24px;
-}
 
-.sign-up {
-  margin-bottom: 57px;
-}
-
-.sign-up,
-.copyright {
-  text-align: center;
+  @media (min-width: calc(600 / 16 * 1rem)) {
+    flex-direction: column;
+  }
 }

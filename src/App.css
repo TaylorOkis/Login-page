@@ -1,11 +1,32 @@
 .wrapper {
   width: 100%;
+  min-height: 100vh;
   padding-inline: 24px;
+
+  @media (min-width: calc(1000 / 16 * 1rem)) {
+    padding-block: 32px;
+  }
 }
 
-.form-width {
+.form {
   max-width: 388px;
-  margin: 8px auto;
+  min-height: 100vh;
+  margin: 26px auto;
+
+  @media (min-width: calc(1000 / 16 * 1rem)) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+main {
+  max-width: 388px;
+
+  @media (min-width: calc(1000 / 16 * 1rem)) {
+    margin: 144px auto;
+  }
 }
 
 .image-container {
@@ -15,6 +36,11 @@
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 27px;
+
+  @media (min-width: calc(1000 / 16 * 1rem)) {
+    height: 100%;
+    max-height: none;
+  }
 }
 
 .image-container img {
