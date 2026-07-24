@@ -6,8 +6,13 @@ A responsive login page built with React by recreating a community Figma design.
 
 ## 📸 Preview
 
-<!-- Add a screenshot here -->
-<!-- Example: ![Login Page](./public/preview.png) -->
+### Desktop
+
+![Desktop Preview](./screenshots/preview.png)
+
+### Mobile
+
+![Mobile Preview](./screenshots/preview-mobile.png)
 
 ## 🎨 Design Reference
 
