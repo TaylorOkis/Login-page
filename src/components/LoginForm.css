@@ -47,7 +47,7 @@ a {
   gap: 16px;
   margin-bottom: 24px;
 
-  @media (min-width: calc(600 / 16 * 1rem)) {
+  @media (min-width: calc(768 / 16 * 1rem)) {
     flex-direction: column;
   }
 }

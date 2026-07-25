@@ -2,10 +2,13 @@ import AppButton from "./AppButton";
 import Divider from "./Divider";
 import GoogleLogo from "../assets/Google.svg";
 import FacebookLogo from "../assets/Facebook.svg";
+import useBreakpoint from "../hooks/useBreakpoint";
 import "./LoginForm.css";
 import Footer from "./Footer";
 
 export default function LoginForm() {
+  const { isDesktop } = useBreakpoint();
+
   return (
     <>
       <form>
@@ -42,7 +45,7 @@ export default function LoginForm() {
 
       <div className="social-buttons">
         <AppButton
-          text="Google"
+          text={isDesktop ? "Sign in with Google" : "Google"}
           textColor="var(--secondary-text)"
           backgroundColor="var(--accent-4)"
           maxWidth="100%"
@@ -51,7 +54,7 @@ export default function LoginForm() {
           }
         />
         <AppButton
-          text="Facebook"
+          text={isDesktop ? "Sign in with Facebook" : "Facebook"}
           textColor="var(--secondary-text)"
           backgroundColor="var(--accent-4)"
           maxWidth="100%"

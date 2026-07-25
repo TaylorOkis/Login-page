@@ -16,4 +16,5 @@ hr {
 
 .divider-text {
   padding-inline: 16px;
+  white-space: nowrap;
 }
